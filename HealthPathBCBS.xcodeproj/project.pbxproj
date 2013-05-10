@@ -59,7 +59,6 @@
 		3CD29BAD173B09C200FB6427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD29BAA173B09C100FB6427 /* AppDelegate.m */; };
 		3CD29BAE173B09C200FB6427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD29BAC173B09C200FB6427 /* ViewController.m */; };
 		3CD29BB3173B2BCA00FB6427 /* source.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CD29BB2173B2BCA00FB6427 /* source.bundle */; };
-		3CD29BB5173C1C6900FB6427 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD29BB4173C1C6800FB6427 /* ShinobiCharts.framework */; };
 		3CD29BB7173C1C7B00FB6427 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD29BB6173C1C7A00FB6427 /* OpenGLES.framework */; };
 		3CD29BB9173C1C8C00FB6427 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD29BB8173C1C8C00FB6427 /* Security.framework */; };
 		3CD29BCC173C294D00FB6427 /* Datasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD29BC4173C294D00FB6427 /* Datasource.m */; };
@@ -69,6 +68,7 @@
 		3CD29BD3173C6BBB00FB6427 /* DemoAllData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD29BD2173C6BBA00FB6427 /* DemoAllData.m */; };
 		3CD29BD5173C8A5F00FB6427 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD29BD4173C8A5E00FB6427 /* CoreMotion.framework */; };
 		3CD29BD8173C8AD500FB6427 /* CMMotionManager+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD29BD7173C8AD300FB6427 /* CMMotionManager+Shared.m */; };
+		3CD29BE5173C9E5800FB6427 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD29BE4173C9E4300FB6427 /* ShinobiCharts.framework */; };
 		3CE4490B173AD4930026F917 /* Histogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE4490A173AD4920026F917 /* Histogram.m */; };
 		3CE4490D173AEF1F0026F917 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE4490C173AEF1E0026F917 /* QuartzCore.framework */; };
 		3CE4490F173AEF560026F917 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE4490E173AEF550026F917 /* libCorePlot-CocoaTouch.a */; };
@@ -252,6 +252,10 @@
 		3CD29BD4173C8A5E00FB6427 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3CD29BD6173C8AD200FB6427 /* CMMotionManager+Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMMotionManager+Shared.h"; sourceTree = "<group>"; };
 		3CD29BD7173C8AD300FB6427 /* CMMotionManager+Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMMotionManager+Shared.m"; sourceTree = "<group>"; };
+		3CD29BE1173C9E4300FB6427 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		3CD29BE2173C9E4300FB6427 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		3CD29BE3173C9E4300FB6427 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		3CD29BE4173C9E4300FB6427 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
 		3CE44909173AD39D0026F917 /* Histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Histogram.h; sourceTree = "<group>"; };
 		3CE4490A173AD4920026F917 /* Histogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Histogram.m; sourceTree = "<group>"; };
 		3CE4490C173AEF1E0026F917 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -266,8 +270,8 @@
 				3CD29BD5173C8A5F00FB6427 /* CoreMotion.framework in Frameworks */,
 				3CD29BB9173C1C8C00FB6427 /* Security.framework in Frameworks */,
 				3CD29BB7173C1C7B00FB6427 /* OpenGLES.framework in Frameworks */,
-				3CD29BB5173C1C6900FB6427 /* ShinobiCharts.framework in Frameworks */,
 				3CE4490F173AEF560026F917 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				3CD29BE5173C9E5800FB6427 /* ShinobiCharts.framework in Frameworks */,
 				3CE4490D173AEF1F0026F917 /* QuartzCore.framework in Frameworks */,
 				054B98E4173431EE0024BF56 /* MapKit.framework in Frameworks */,
 				054B98AA1734294F0024BF56 /* UIKit.framework in Frameworks */,
@@ -282,6 +286,7 @@
 		054B989D1734294F0024BF56 = {
 			isa = PBXGroup;
 			children = (
+				3CD29BDF173C9E4300FB6427 /* ShinobiCharts.embeddedframework */,
 				3CD29BD4173C8A5E00FB6427 /* CoreMotion.framework */,
 				054B98AF1734294F0024BF56 /* HealthPath */,
 				055296F81738E3F100AA6871 /* ISRefreshControl */,
@@ -571,6 +576,25 @@
 			name = "Area Chart";
 			sourceTree = "<group>";
 		};
+		3CD29BDF173C9E4300FB6427 /* ShinobiCharts.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				3CD29BE0173C9E4300FB6427 /* Resources */,
+				3CD29BE4173C9E4300FB6427 /* ShinobiCharts.framework */,
+			);
+			path = ShinobiCharts.embeddedframework;
+			sourceTree = "<group>";
+		};
+		3CD29BE0173C9E4300FB6427 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CD29BE1173C9E4300FB6427 /* Nunito-Bold.ttf */,
+				3CD29BE2173C9E4300FB6427 /* Nunito-Light.ttf */,
+				3CD29BE3173C9E4300FB6427 /* Nunito-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -780,6 +804,7 @@
 					"\"$(SRCROOT)/../CorePlot_1.2/Binaries/MacOS\"",
 					"\"$(SRCROOT)/../CorePlot_1.2/Source/build/Debug\"",
 					"\"$(SRCROOT)/../ShinobiCharts Trial/ShinobiCharts.embeddedframework\"",
+					"\"$(SRCROOT)/ShinobiCharts.embeddedframework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HealthPath/HealthPathBCBS-Prefix.pch";
@@ -811,6 +836,7 @@
 					"\"$(SRCROOT)/../CorePlot_1.2/Binaries/MacOS\"",
 					"\"$(SRCROOT)/../CorePlot_1.2/Source/build/Debug\"",
 					"\"$(SRCROOT)/../ShinobiCharts Trial/ShinobiCharts.embeddedframework\"",
+					"\"$(SRCROOT)/ShinobiCharts.embeddedframework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HealthPath/HealthPathBCBS-Prefix.pch";
